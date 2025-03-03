@@ -12,6 +12,12 @@ public class Test1 {
 	WebDriverManager.chromedriver().setup();
 	ChromeDriver driver= new ChromeDriver();
 	driver.navigate().to("https://emicalculator.net/");
+	
+	}
+	@Test
+	public void test1()
+	{
+		
 	}
 
 }
